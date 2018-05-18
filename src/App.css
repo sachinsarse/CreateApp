@@ -64,9 +64,11 @@ body{
     float: right;
 }
 .userCommentBox{
-  line-height: 1.8em;
-  font-size: 15px;
-  font-weight: 400;
+      line-height: 1.8em;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 .userCommentBox h4{
     margin-top: 0;
@@ -76,4 +78,19 @@ body{
 }
 .mainImgDiv img{
   min-height: 500px;
+  margin-bottom: 0!important;
+}
+.mainImgDiv img{
+  box-shadow:none!important;
+  cursor: inherit;
+}
+.mainImgDiv img:hover{
+  box-shadow:none!important;
+}
+.mainImgBox{
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1)!important;
+}
+.noPadding{
+  padding: 0!important;
 }
