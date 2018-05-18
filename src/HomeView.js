@@ -83,7 +83,7 @@ class HomeView extends Component {
     }
 
    const photos =  this.state.photos.map((option) => (
-      <div key= {option.id} className="col-md-4 imgDiv">
+      <div key= {option.id} className="col-md-4 imgDiv homeImgBox">
         <img key={option.id} src={option.display_src} onClick={this.handleOnClick} alt="Image" />
       </div>  
     ));

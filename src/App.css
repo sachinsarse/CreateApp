@@ -64,11 +64,17 @@ body{
     float: right;
 }
 .userCommentBox{
-      line-height: 1.8em;
+    line-height: 1.8em;
     font-size: 15px;
     font-weight: 400;
     padding-top: 30px;
     padding-left: 30px;
+    min-height: 480px;
+
+    width: 45%;
+    float: left;
+    background: #fff;
+    border-left: 1px solid #f1f1f1;
 }
 .userCommentBox h4{
     margin-top: 0;
@@ -94,3 +100,13 @@ body{
 .noPadding{
   padding: 0!important;
 }
+.homeImgBox{
+  float: left;
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  .mainImgDiv {
+    width: 50%;
+    float: left;
+  }

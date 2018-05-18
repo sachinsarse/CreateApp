@@ -52,7 +52,6 @@ class PhotoView extends Component {
             <img height="" width="100%" src={this.state.photo.display_src} />
         </div> 
         <div className="col-md-5 userCommentBox">
-        <h4>Users Comments</h4>  
         {comments}
         </div>
       </div>
