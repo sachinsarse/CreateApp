@@ -22,6 +22,50 @@ class HomeView extends Component {
           id: "1160844458347054781",
           display_src:
             "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12407344_1283694208323785_735653395_n.jpg"
+        },
+           {
+          code: "BAcJeJrQca9",
+          caption: "Snow! ⛄️🌨❄️ #lifewithsnickers",
+          likes: 59,
+          id: "1160844458347054781",
+          display_src:
+            "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12407344_1283694208323785_735653395_n.jpg"
+        }, {
+          code: "BAcJeJrQca9",
+          caption: "Snow! ⛄️🌨❄️ #lifewithsnickers",
+          likes: 59,
+          id: "1160844458347054781",
+          display_src:
+            "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12407344_1283694208323785_735653395_n.jpg"
+        },
+           {
+          code: "BAcJeJrQca9",
+          caption: "Snow! ⛄️🌨❄️ #lifewithsnickers",
+          likes: 59,
+          id: "1160844458347054781",
+          display_src:
+            "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12407344_1283694208323785_735653395_n.jpg"
+        }, {
+          code: "BAcJeJrQca9",
+          caption: "Snow! ⛄️🌨❄️ #lifewithsnickers",
+          likes: 59,
+          id: "1160844458347054781",
+          display_src:
+            "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12407344_1283694208323785_735653395_n.jpg"
+        }, {
+          code: "BAcJeJrQca9",
+          caption: "Snow! ⛄️🌨❄️ #lifewithsnickers",
+          likes: 59,
+          id: "1160844458347054781",
+          display_src:
+            "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12407344_1283694208323785_735653395_n.jpg"
+        }, {
+          code: "BAcJeJrQca9",
+          caption: "Snow! ⛄️🌨❄️ #lifewithsnickers",
+          likes: 59,
+          id: "1160844458347054781",
+          display_src:
+            "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12407344_1283694208323785_735653395_n.jpg"
         }
       ]
     }
@@ -40,7 +84,7 @@ class HomeView extends Component {
 
    const photos =  this.state.photos.map((option) => (
       <div key= {option.id} className="col-md-4 imgDiv">
-        <img key={option.id} height="250" width="250" src={option.display_src} onClick={this.handleOnClick}  />
+        <img key={option.id} src={option.display_src} onClick={this.handleOnClick} alt="Image" />
       </div>  
     ));
     return (

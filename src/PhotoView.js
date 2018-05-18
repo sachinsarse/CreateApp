@@ -40,7 +40,7 @@ class PhotoView extends Component {
   render() {
 
     const comments =  this.state.comments.map((option,index) => (
-      <div className="row" key= {index}>       
+      <div className="" key= {index}>       
         <span className="userColor">{option.user} </span>
         <span> {option.text}</span>
       </div>  
@@ -48,10 +48,11 @@ class PhotoView extends Component {
 
     return (
       <div className= "row photoDiv">
-        <div className="col-md-6 imgDiv">
-            <img height="500" width="100%" src={this.state.photo.display_src} />
+        <div className="col-md-6 imgDiv mainImgDiv">
+            <img height="" width="100%" src={this.state.photo.display_src} />
         </div> 
-        <div className="col-md-5 imgDiv">
+        <div className="col-md-5 userCommentBox">
+        <h4>Users Comments</h4>  
         {comments}
         </div>
       </div>
